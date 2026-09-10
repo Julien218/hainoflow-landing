@@ -11,9 +11,9 @@ Landing statique de HainoFlow by JS-Innov.IA — https://hainoflow.jsinnovia.com
 
 | Type  | Hôte     | Cible                      | TTL  |
 |-------|----------|----------------------------|------|
-| CNAME | hainoflow| (cible fournie par Railway)| 3600 |
+| CNAME | hainoflow | 5eyrb4op.up.railway.app | 3600 |
 
-⚠️ Utiliser la valeur exacte affichée dans Railway → hainoflow-landing → Settings → Networking.
+⚠️ Valeur vérifiée via API Railway le 10/09/2026 (custom domain ID 5048deb9). Le certificat TLS est émis automatiquement par Railway après propagation DNS.
 Ne jamais modifier les enregistrements email (MX, SPF, DKIM, DMARC).
 
 ## Règles
