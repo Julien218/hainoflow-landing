@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "brand": "HainoFlow",
+  "status": "production-with-missing-assets",
+  "locale": "fr-BE",
+  "lastAligned": "2026-09-23",
+  "repository": {
+    "fullName": "Julien218/hainoflow-landing",
+    "productionBranch": "main"
+  },
+  "canonicalSources": {
+    "bible": "brand/BRAND_ADN.md",
+    "runtime": "index.html"
+  },
+  "identity": {
+    "name": "HainoFlow",
+    "parentBrand": "JS-Innov.IA",
+    "promise": "La facturation belge simple, fluide et humaine."
+  },
+  "palette": {
+    "navy": "#050E26",
+    "blue": "#1E3A5F",
+    "gold": "#D4AF37",
+    "cyan": "#00F2FF",
+    "ink": "#0B1633",
+    "surface": "#F4F7FB",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "ui": "Inter, system-ui, Segoe UI, sans-serif"
+  },
+  "assets": {
+    "logo": {
+      "runtimePath": "/brand/hainoflow-logo.png",
+      "repositoryStatus": "missing"
+    },
+    "social": {
+      "runtimePath": "/brand/hainoflow-linkedin.png",
+      "repositoryStatus": "missing"
+    }
+  },
+  "agentPolicy": {
+    "mode": "fail-closed",
+    "readOrder": [
+      "brand/brand.manifest.json",
+      "brand/BRAND_ADN.md",
+      "index.html"
+    ],
+    "forbidden": [
+      "invent-missing-logo",
+      "generate-logo",
+      "mix-other-jsinnovia-product-assets",
+      "recolor-unvalidated-logo"
+    ],
+    "qualityGate": [
+      "brand-scope-confirmed",
+      "canonical-palette-used",
+      "official-assets-resolved",
+      "no-cross-brand-contamination"
+    ]
+  }
+}
