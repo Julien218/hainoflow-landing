@@ -1,0 +1,26 @@
+[
+  {
+    "file": "brand/hainoflow-logo.png",
+    "source_repo": "Julien218/facturapro",
+    "source_branch": "agent/hainoflow-commercial-launch",
+    "source_path": "public/brand/hainoflow-logo.png",
+    "git_blob": "22d5cabc51c3b6e88b96649e710a0ef51af36c7c",
+    "sha256": "1c3075718423db6b82486f12a688955d70140d2cebfba327c48404a0a6ddee2a"
+  },
+  {
+    "file": "brand/hainoflow-linkedin.png",
+    "source_repo": "Julien218/facturapro",
+    "source_branch": "agent/hainoflow-commercial-launch",
+    "source_path": "public/brand/hainoflow-linkedin.png",
+    "git_blob": "d8d8eb7ee448b5d3373c4d02d7e853fd17ffe6eb",
+    "sha256": "37fba35b3c6b3a8a0ca42e89c225c0a7e5297afec2bd25ad460afabe43270ad0"
+  },
+  {
+    "file": "brand/hainoflow-social-square.png",
+    "source_repo": "Julien218/facturapro",
+    "source_branch": "agent/hainoflow-commercial-launch",
+    "source_path": "public/brand/hainoflow-social-square.png",
+    "git_blob": "472d076b22795cf7ea60d6444bc369ce87b26521",
+    "sha256": "3bdf44dd58a855bca53f33f651851ca26a642354047f5295fbd3913dca1b51aa"
+  }
+]

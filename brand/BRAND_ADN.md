@@ -35,3 +35,7 @@ Le runtime référence `/brand/hainoflow-logo.png` et `/brand/hainoflow-linkedin
 
 ## Règles agents
 Lire d'abord `brand/brand.manifest.json`, puis cette Bible, puis `index.html`. Si l'asset logo officiel n'est pas accessible, retourner un blocage `ASSET_CANONIQUE_MANQUANT` plutôt que produire un substitut.
+
+
+## Restauration des assets — 2026-11-11
+Les trois PNG d’origine ont été récupérés sans modification depuis le dépôt source déclaré dans README.md : Julien218/facturapro, branche agent/hainoflow-commercial-launch, dossier public/brand. Le fichier asset-source-receipt.json conserve les identifiants Git et les empreintes SHA-256. Aucune image n’a été régénérée.
