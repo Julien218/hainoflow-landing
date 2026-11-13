@@ -1,7 +1,7 @@
 # HainoFlow — Bible ADN canonique
 
 Statut : **production / documenté depuis la landing publiée**  
-Dernier alignement : 2026-11-13
+Dernier alignement : 2026-11-14
 
 ## Identité
 - Produit : **HainoFlow**
@@ -9,19 +9,21 @@ Dernier alignement : 2026-11-13
 - Promesse visible : facturation belge simple, fluide et humaine.
 - Univers : professionnel, sécurisé, fluide, belge ; technologie discrète, lisibilité prioritaire.
 
-## Palette canonique actuelle
-- Navy : `#050E26`
-- Bleu : `#1E3A5F`
-- Or : `#D4AF37`
-- Cyan : `#00F2FF`
-- Ink : `#0B1633`
-- Surface claire : `#F4F7FB`
-- Blanc : `#FFFFFF`
+## Palette canonique (validée par Julien le 2026-11-14)
+La palette suit le logo officiel et le guide maître v1.0 (`guide-maitre-v1.0-palette.json`) :
+- Navy : `#031238` (fond du logo), navy 2 `#071F4C`, navy 3 `#0A2A60`
+- Or : `#E7B14A`, or clair `#FFDD89`
+- Cyan : `#16D5FF`
+- Bleu : `#3E64FF`, violet : `#8449FF`, magenta : `#F531AB`
+- Blanc : `#F8FAFF`, encre : `#0F1C36`, gris : `#B5C6E2`
+- Dégradé « flow » (mot Flow du logo) : cyan `#16D5FF` → violet `#8449FF` → magenta `#F531AB`
+
+Le site publié utilise encore l'ancienne palette (`#050E26`, `#D4AF37`, `#00F2FF`) : c'est du runtime legacy à migrer, pas la direction artistique.
 
 ## Typographie
-- Inter / system-ui / Segoe UI / sans-serif.
-- Titres larges et modernes ; corps très lisible.
-- Gradient de titre : cyan → violet intermédiaire → or.
+- Principale : **Manrope** (repli Inter, Arial, sans-serif).
+- Premium : **Cormorant Garamond**, seulement pour des titres institutionnels, jamais pour les prix ou petits textes.
+- Chiffres, montants et tableaux en sans-serif. Deux familles au maximum par support.
 
 ## Assets officiels
 Les masters validés viennent du pack **HainoFlow-ADN-Master-v1.0** et sont versionnés dans `brand/assets/` depuis le 2026-11-13 :
@@ -37,9 +39,6 @@ Le pack précise que les versions 2048/4096 sont rééchantillonnées et que le 
 Encore manquant : le visuel social `/brand/hainoflow-linkedin.png`. Si un agent en a besoin, il retourne `ASSET_CANONIQUE_MANQUANT`.
 
 Note de déploiement : le `Dockerfile` ne copie que `index.html`. Les fichiers de `brand/assets/` ne sont donc pas encore servis sous `/brand/` par le site.
-
-## Palette du guide maître v1.0 (à arbitrer)
-Le guide maître (`guide-maitre-v1.0-palette.json`, `guide-maitre-v1.0-typographie.md`) propose une palette différente de celle du site publié : navy `#031238`, or `#E7B14A`, cyan `#16D5FF`, dégradé « flow » cyan → violet `#8449FF` → magenta `#F531AB`, typographie Manrope + Cormorant Garamond. Tant que Julien n'a pas tranché, la palette canonique reste celle ci-dessus, alignée sur le site publié.
 
 ## Règles de marque
 - HainoFlow n'utilise pas la palette générique JS-Innov.IA comme palette principale.
