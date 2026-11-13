@@ -19,16 +19,23 @@
     "promise": "La facturation belge simple, fluide et humaine."
   },
   "palette": {
-    "navy": "#050E26",
-    "blue": "#1E3A5F",
-    "gold": "#D4AF37",
-    "cyan": "#00F2FF",
-    "ink": "#0B1633",
-    "surface": "#F4F7FB",
-    "white": "#FFFFFF"
+    "navy": "#031238",
+    "navy2": "#071F4C",
+    "navy3": "#0A2A60",
+    "gold": "#E7B14A",
+    "goldLight": "#FFDD89",
+    "cyan": "#16D5FF",
+    "blue": "#3E64FF",
+    "purple": "#8449FF",
+    "magenta": "#F531AB",
+    "white": "#F8FAFF",
+    "ink": "#0F1C36",
+    "muted": "#B5C6E2"
   },
   "typography": {
-    "ui": "Inter, system-ui, Segoe UI, sans-serif"
+    "primary": "Manrope (fallback Inter, Arial, sans-serif)",
+    "premium": "Cormorant Garamond, titres institutionnels uniquement",
+    "numbers": "sans-serif"
   },
   "assets": {
     "logo": {
@@ -67,10 +74,26 @@
       "no-cross-brand-contamination"
     ]
   },
-  "masterGuidePalette": {
-    "source": "brand/guide-maitre-v1.0-palette.json",
-    "typography": "brand/guide-maitre-v1.0-typographie.md",
-    "status": "a-arbitrer",
-    "note": "Le guide maitre v1.0 (navy #031238, or #E7B14A, cyan #16D5FF, Manrope) differe de la palette runtime ci-dessus. Ne pas basculer sans validation de Julien."
+  "gradients": {
+    "flow": "linear-gradient(90deg, #16D5FF 0%, #8449FF 52%, #F531AB 100%)",
+    "premium": "linear-gradient(135deg, #FFDD89 0%, #E7B14A 100%)",
+    "night": "linear-gradient(135deg, #071F4C 0%, #031238 100%)"
+  },
+  "siteRuntimePalette": {
+    "navy": "#050E26",
+    "blue": "#1E3A5F",
+    "gold": "#D4AF37",
+    "cyan": "#00F2FF",
+    "ink": "#0B1633",
+    "surface": "#F4F7FB",
+    "white": "#FFFFFF",
+    "status": "runtime-legacy-until-site-migrated",
+    "source": "index.html",
+    "typography": "Inter"
+  },
+  "decision": {
+    "date": "2026-11-14",
+    "by": "Julien",
+    "rule": "La palette suit le logo officiel (guide maitre v1.0)."
   }
 }
