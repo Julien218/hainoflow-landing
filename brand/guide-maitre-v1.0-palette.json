@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "navy": "#031238",
+    "navy-2": "#071F4C",
+    "navy-3": "#0A2A60",
+    "gold": "#E7B14A",
+    "gold-light": "#FFDD89",
+    "cyan": "#16D5FF",
+    "blue": "#3E64FF",
+    "purple": "#8449FF",
+    "magenta": "#F531AB",
+    "white": "#F8FAFF",
+    "ink": "#0F1C36",
+    "muted": "#B5C6E2"
+  },
+  "semantic": {
+    "success": "#17AB75",
+    "warning": "#EFA530",
+    "error": "#DC445D"
+  },
+  "gradients": {
+    "flow": "linear-gradient(90deg, #16D5FF 0%, #8449FF 52%, #F531AB 100%)",
+    "premium": "linear-gradient(135deg, #FFDD89 0%, #E7B14A 100%)",
+    "night": "linear-gradient(135deg, #071F4C 0%, #031238 100%)"
+  }
+}

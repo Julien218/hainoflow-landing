@@ -1,16 +1,17 @@
 {
   "schemaVersion": "1.0",
   "brand": "HainoFlow",
-  "status": "production-with-missing-assets",
+  "status": "production",
   "locale": "fr-BE",
-  "lastAligned": "2026-09-23",
+  "lastAligned": "2026-11-13",
   "repository": {
     "fullName": "Julien218/hainoflow-landing",
     "productionBranch": "main"
   },
   "canonicalSources": {
     "bible": "brand/BRAND_ADN.md",
-    "runtime": "index.html"
+    "runtime": "index.html",
+    "masterPack": "HainoFlow-ADN-Master-v1.0 (Documents\\Js-Innov.IA\\Haino-Flow), copie des fichiers utiles dans brand/"
   },
   "identity": {
     "name": "HainoFlow",
@@ -31,9 +32,15 @@
   },
   "assets": {
     "logo": {
+      "master": "brand/assets/hainoflow-logo-officiel-1254.png",
+      "transparent": "brand/assets/hainoflow-logo-transparent-2500.png",
       "runtimePath": "/brand/hainoflow-logo.png",
-      "repositoryStatus": "missing"
+      "repositoryStatus": "present-in-brand-assets"
     },
+    "lockupDark": "brand/assets/hainoflow-lockup-fond-sombre.png",
+    "lockupLight": "brand/assets/hainoflow-lockup-fond-clair.png",
+    "monogram": "brand/assets/hainoflow-monogramme.png",
+    "protectionZone": "brand/assets/hainoflow-zone-protection.png",
     "social": {
       "runtimePath": "/brand/hainoflow-linkedin.png",
       "repositoryStatus": "missing"
@@ -44,6 +51,7 @@
     "readOrder": [
       "brand/brand.manifest.json",
       "brand/BRAND_ADN.md",
+      "brand/assets/",
       "index.html"
     ],
     "forbidden": [
@@ -58,5 +66,11 @@
       "official-assets-resolved",
       "no-cross-brand-contamination"
     ]
+  },
+  "masterGuidePalette": {
+    "source": "brand/guide-maitre-v1.0-palette.json",
+    "typography": "brand/guide-maitre-v1.0-typographie.md",
+    "status": "a-arbitrer",
+    "note": "Le guide maitre v1.0 (navy #031238, or #E7B14A, cyan #16D5FF, Manrope) differe de la palette runtime ci-dessus. Ne pas basculer sans validation de Julien."
   }
 }
